@@ -1,0 +1,52 @@
+body {
+  background-color: gray;
+  color: red;
+}
+
+#titulo {
+  text-align: center;
+  font-size: 100px;
+  font-family: "Times New Roman";
+}
+
+
+#ahorcado {
+   display: block;
+   height: 800px;
+   width: 800px;
+   margin-left: 250px;
+}
+
+#output {
+  text-align: center;
+  font-size: 100px;
+}
+
+.inp {
+  text-align: center;
+  height: 150px;
+  width: 600px;
+  margin: 0 auto; /* Centrar horizontalmente */
+}
+
+.inp input[type="text"] {
+  display: inline-block;
+  vertical-align: middle;
+  width: calc(100% - 190px);
+  height: 120px;
+  font-size: 80px;
+}
+
+.inp button {
+  display: inline-block;
+  vertical-align: middle;
+  width: 130px;
+  height: 120px;
+  font-size: 30px;
+}
+#letra::placeholder {
+  text-align: center;
+  font-size: 40px;
+}
+
+
